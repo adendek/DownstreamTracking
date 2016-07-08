@@ -96,7 +96,7 @@ PatLongLivedTracking::PatLongLivedTracking( const std::string& name,
 
   // -- Parameter to reject seed track which are likely ghosts
   declareProperty( "MVAPreselectionTool",                      m_mvaPreselectionToolName        = "PatFisherPreselectionTool" );
-  declareProperty( "FisherCut",                   m_seedCut               = -0.017                                        );
+  declareProperty( "FisherCut",                   m_seedCut               = 5                                        );
   declareProperty( "MVAPreselectionTool",                      m_mvaFinalSelectionToolName        = "PatMPLFinalSelectionTool" );
   declareProperty( "MPLCut",                      m_trackCut              = 0.42                                       );
 
@@ -316,15 +316,14 @@ StatusCode PatLongLivedTracking::execute() {
   
   for ( LHCb::Track* tr : myInTracks ) {
     if( UNLIKELY(m_withDebugTool) ){m_debugTool->recordStepInProcess("initEvent",m_debugTool->isTrueTrack(tr,ttCoords));}//AD, add debug step here to see if seed is reco'ble ad downstream
-    
 
     // store track for seed selction training
-    m_debugTool->trackTuple(tr);
+    m_debugTool->seedTuple(tr);
     // -- simple Fisher discriminant to reject bad seed tracks
     const double fisher = evaluateFisher( tr );
     if( fisher < m_seedCut ) continue;
     if( UNLIKELY(m_withDebugTool) ){m_debugTool->recordStepInProcess("fisher",m_debugTool->isTrueTrack(tr,ttCoords));}//AD check fisher  
-    if( UNLIKELY(m_withDebugTool) ){m_debugTool->seedTuple(tr);}
+//    if( UNLIKELY(m_withDebugTool) ){m_debugTool->seedTuple(tr);}
 
       if ( 0 <= m_seedKey && m_seedKey == tr->key() ) m_printing = true;
     

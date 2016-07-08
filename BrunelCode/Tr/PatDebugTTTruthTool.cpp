@@ -187,13 +187,7 @@ double PatDebugTTTruthTool::fracGoodHits( const LHCb::Track* track, const PatTTH
 //  Is this a 'good' track (according to the TrackAssociator) definition?
 //=============================================================================
 bool PatDebugTTTruthTool::isTrueTrack( const LHCb::Track* track, const PatTTHits& hits){
-  
-  LinkedTo<LHCb::MCParticle, LHCb::Track> mySeedLink ( evtSvc(), msgSvc(),LHCb::TrackLocation::Seed);
-  LinkedTo<LHCb::MCParticle, LHCb::STCluster> myClusterLink ( evtSvc(), msgSvc(), LHCb::STClusterLocation::TTClusters );
-
-  const LHCb::MCParticle* mcSeedPart = mySeedLink.first( track->key() );
-
-  if( mcSeedPart == nullptr ) return false;
+   if(!isTrueSeed(track)) return false;
 
   unsigned int nTrueHits = 0;
   unsigned int nBadHits = 0;
@@ -224,15 +218,23 @@ bool PatDebugTTTruthTool::isTrueTrack( const LHCb::Track* track, const Tf::TTSta
 }
 
 bool PatDebugTTTruthTool::isTrueSeed(const LHCb::Track* seed){
-    LinkedTo<LHCb::MCParticle, LHCb::Track> mySeedLink ( evtSvc(), msgSvc(),LHCb::TrackLocation::Seed);
-    LinkedTo<LHCb::MCParticle, LHCb::STCluster> myClusterLink ( evtSvc(), msgSvc(), LHCb::STClusterLocation::TTClusters );
-
     MCTrackInfo trackInfo( evtSvc(), msgSvc() );
-    const LHCb::MCParticle* mcSeedPart = mySeedLink.first( seed->key() );
+    LinkedTo<LHCb::MCParticle, LHCb::Track> mySeedLink ( evtSvc(), msgSvc(),LHCb::TrackLocation::Seed);
 
-    return !(mcSeedPart == nullptr)&&
-            !trackInfo.hasVelo(mcSeedPart) &&
-            trackInfo.hasTT( mcSeedPart );
+    bool goodTrack = true;
+
+    const LHCb::MCParticle* mcSeedPart = mySeedLink.first( seed->key() );
+    if( mcSeedPart == nullptr ){
+      goodTrack = false;
+    }else{
+      // -- We ask for downstream tracks that are not long reconstructible
+      const bool isDown  = trackInfo.hasT( mcSeedPart ) && trackInfo.hasTT( mcSeedPart ) && !trackInfo.hasVelo( mcSeedPart );
+      if( !isDown ) goodTrack = false;
+      if( std::abs(mcSeedPart->particleID().pid()) == 11 ) goodTrack = false;
+    }
+
+
+      return goodTrack;
 
 }
 
