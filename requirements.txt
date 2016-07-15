@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+root_numpy
+sklearn
+Theano
+lasagne
+keras
+seaborn
