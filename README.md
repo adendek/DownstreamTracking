@@ -1,4 +1,6 @@
 # LHCb DownstreamTracking study 
+Detailed description of the problem can be find in the file **DownstreamTracking/SeedClasifier/Baseline.ipynb**
+
 ##Installation python ML
 To setup the ML part of the  downstream tracking study you need to:
 
