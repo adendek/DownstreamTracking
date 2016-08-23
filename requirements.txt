@@ -7,3 +7,4 @@ Theano
 lasagne
 keras
 seaborn
+xgboost
