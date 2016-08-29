@@ -5,10 +5,11 @@ It is **highly recommended** to start reading from mentioned file.
 
 ##Installation python Machine Learing part of the project
 To setup the ML part of the  downstream tracking study you need to:
-
-1. Clone the repository
+1. Log to the remote computing cluster eg lxplus 
+  * ssh -L 7000:localhost:6000 username@lxplus.cern.ch
+2. Clone the repository
   * git clone https://github.com/adendek/DownstreamTracking.git
-2. install all python packages
+3. install all python packages
   * pip install --user --upgrade -r requirements.txt
-3. Start the jupyter 
+4. Start the jupyter 
   * jupyter notebook --no-browser --port=6000
