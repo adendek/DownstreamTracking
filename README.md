@@ -23,9 +23,9 @@ This means that we don't want to lose any positive signal (good downstream track
 ###To choose the best model I will train and tune various of available Machine Learning models. I will focus on: 
  1. [Baseline kNN](SeedClasifier/Baseline.ipynb). Just to get some intuition about datasets and classification score. 
  2. [Boosted Decision Trees](SeedClasifier/Baseline-BDT.ipynb) (BDT) based on sklearn GradientBoostedClassifier. 
-  * <font color="red">This is the most important model.</font>It has the best performance measured as area under ROC curve. 
-  * I also focused on timing improvement. I implement idea of [bonsai Boosted Decision Trees(bBDT)](http://arxiv.org/abs/1210.6861). The idea of bBDT is to transfer the  base classifier (BDT) into lookup table. In this case the classifier evaluation time is ~ O(1)! 
  3. [BDT](SeedClasifier/BDT-XGBoost.ipynb) based on xgboost library 
+  * <span style="color:red;">This is the most important model.</span> It has the best performance measured as area under ROC curve. 
+  * I also focused on improvement of the classifier evaluation timing. I implement idea of [bonsai Boosted Decision Trees(bBDT)](http://arxiv.org/abs/1210.6861). The concept of bBDT is to transfer the  base classifier (BDT) into lookup table. In this case the classifier evaluation time is ~ O(1)! 
  4. Linear model - [Logistic Regression](SeedClasifier/LogisticRegression.ipynb)
  5. [Deep Neural Network](SeedClasifier/DNN.ipynb) based on Lasagne and Theano
  6. [Deep Neural Network]((SeedClasifier/DNN-Keras.ipynb)) based on Keras and Theano
