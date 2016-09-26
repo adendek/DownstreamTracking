@@ -20,14 +20,15 @@ The another directory - **TrackClassifier** contains study of the second, final 
 
 This means that we don't want to lose any positive signal (good downstream tracks). In the same time the goal is to reduce as much as possible, perfect case all of ghost seeds. It need to works all of the mail spam detectors. If we loose good mail e.g. acceptance for internship by the company XYZ is a serious problem. On the other hand if we accept such mail as *free holiday advert* it is not so painful for our user. 
 
-###To choose the best model I will train and tune various of available Machine Learning. I will focus on: 
+###To choose the best model I will train and tune various of available Machine Learning models. I will focus on: 
  1. [Baseline kNN](SeedClasifier/Baseline.ipynb). Just to get some intuition about datasets and classification score. 
  2. [Boosted Decision Trees](SeedClasifier/Baseline-BDT.ipynb) (BDT) based on sklearn GradientBoostedClassifier. 
  3. [BDT](SeedClasifier/BDT-XGBoost.ipynb) based on xgboost library 
+  * <span style="color:red;">This is the most important model.</span> It has the best performance measured as area under ROC curve. 
+  * I also focused on improvement of the classifier evaluation timing. I implement idea of [bonsai Boosted Decision Trees(bBDT)](http://arxiv.org/abs/1210.6861). The concept of bBDT is to transfer the  base classifier (BDT) into lookup table. In this case the classifier evaluation time is ~ O(1)! 
  4. Linear model - [Logistic Regression](SeedClasifier/LogisticRegression.ipynb)
  5. [Deep Neural Network](SeedClasifier/DNN.ipynb) based on Lasagne and Theano
  6. [Deep Neural Network]((SeedClasifier/DNN-Keras.ipynb)) based on Keras and Theano
-
 
 #Installation python Machine Learning part of the project
 To setup the ML part of the  downstream tracking study you need to:  
