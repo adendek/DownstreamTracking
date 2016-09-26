@@ -18,9 +18,10 @@ Make sure you put the source files into correct directory.
 The content of directory [BrunelCode/Tr/PatAlgorithm](BrunelCode/Tr/PatAlgorithm) 
 have to be moved into **BrunelDev_v51r1/Tf/PatAlgorithms** and so one.
  
- ## Attention Workaround! 
- You need to manualy change line PatBBDTSeedClassifier.cpp:127 to set correct location of the **BBDT_lookuptable_binary.dat**
- I have no idea how to export environmental variable via lb-dev and CMake. 
+## Attention Workaround!
+ You need to manualy change line PatBBDTSeedClassifier.cpp:127 to set correct location of the **BBDT_lookuptable_binary.dat** 
+ I have no idea how to export environmental variable via lb-dev and CMake.  
  
- ### The directory test contain set of Unit Tests to check correctness of evaluation of the trained classifier
+ 
+### The directory test contain set of Unit Tests to check correctness of evaluation of the trained classifier
  
