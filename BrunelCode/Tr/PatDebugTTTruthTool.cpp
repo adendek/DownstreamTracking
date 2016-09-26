@@ -279,7 +279,7 @@ void PatDebugTTTruthTool::chi2Tuple(const double p, const double chi2, const uns
   
 }
 
-void PatDebugTTTruthTool::seedTuple(const LHCb::Track* trackSeed)
+void PatDebugTTTruthTool::seedTuple(const LHCb::Track* trackSeed, double seedClassifierValue)
 {
     Tuple tuple = nTuple( "DownstreamSeedDebugTuple", "DownstreamSeedDebugTuple" );
     // information taken from the track
@@ -309,6 +309,7 @@ void PatDebugTTTruthTool::seedTuple(const LHCb::Track* trackSeed)
     tuple->column( "seed_y"   , position.y() );
     tuple->column( "seed_tx"  , slopes.x() );
     tuple->column( "seed_ty"  , slopes.y() );
+    tuple->column( "seed_mva_value"  , seedClassifierValue);
     tuple->write();
 }
 

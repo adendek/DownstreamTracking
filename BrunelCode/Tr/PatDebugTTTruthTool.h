@@ -44,7 +44,7 @@ public:
   
   virtual void chi2Tuple( const double p, const double chi2, const unsigned int nHits);
 
-  virtual void seedTuple(const LHCb::Track* trackSeed);
+  virtual void seedTuple(const LHCb::Track* trackSeed, double seedClassifierValue);
   virtual void trackTuple( const std::map<std::string, double >  downTrackParameters,  const PatTTHits& trackHits, const LHCb::Track* trackSeed);
   std::map<std::string, bool> getMCTrackInfo(const LHCb::Track* seed) const;
 
