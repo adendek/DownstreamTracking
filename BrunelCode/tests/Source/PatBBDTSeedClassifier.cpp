@@ -1,8 +1,11 @@
 
+
 #include "PatBBDTSeedClassifier.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <iostream>
 
+using namespace std;
 
 double PatBBDTSeedClassifier::getMvaValue(const std::vector<double>& parametersVector )
 {
@@ -88,8 +91,10 @@ std::vector<double> PatBBDTSeedClassifier::initLookupTable()
     const int elementNumber = 4;
 
     std::vector<double> lookup_table(elementNumber);
-    if (!(inFile = fopen("BBDT_lookuptable_binary.dat", "rb")))
-        exit(EXIT_FAILURE);
+    if (!(inFile = fopen("./Source/BBDT_lookuptable_binary.dat", "rb"))){
+      cout<<"No file"<<endl;
+      exit(-2222);
+    }
 
     fread(&lookup_table[0], sizeof(double), elementNumber, inFile);
     fclose(inFile);
