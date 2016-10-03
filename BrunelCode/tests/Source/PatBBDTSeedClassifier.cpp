@@ -1,19 +1,16 @@
 
 
 #include "PatBBDTSeedClassifier.h"
-#include <stdlib.h>
-#include <stdio.h>
 #include <iostream>
 
 using namespace std;
 
+
 double PatBBDTSeedClassifier::getMvaValue(const std::vector<double>& parametersVector )
 {
     auto binIndices = getBinIndices(parametersVector);
-    int lookupTableIndex = convertBinIndicesToLookupIndex(binIndices);
-    return getBBDTPrediction(lookupTableIndex);
+    return getBBDTPrediction(binIndices);
 }
-
 
 
 PatBBDTSeedClassifier::PatBBDTSeedClassifier( )
@@ -23,82 +20,72 @@ PatBBDTSeedClassifier::PatBBDTSeedClassifier( )
 
 void PatBBDTSeedClassifier::initialize()
 {
-
-    m_binsEdgeMap = initBinEdgeMaps();
-    m_lookupTable = initLookupTable();
+    initBinEdgeMaps();
+    initTupleClassifier();
 }
 
 std::vector<int> PatBBDTSeedClassifier::getBinIndices(const std::vector<double>& parametersVector)
 {
-    std::vector<int> binIndicesMap;
     int actualFeature = 0;
+    int binPerFeatures = 2;
+    std::vector<int> binIndicesMap;
     for (const auto& featurePair: m_binsEdgeMap){
         int binNumber = 0;
         for(const auto& binValue : featurePair.second) {
-            if (parametersVector[actualFeature] > binValue) {
+            if (parametersVector[actualFeature] < binValue) {
                 binIndicesMap.push_back(binNumber);
                 break;
             }
             binNumber++;
+            if(binNumber == binPerFeatures -1 ) binIndicesMap.push_back(binNumber);
+
         }
         actualFeature++;
     }
     return binIndicesMap;
 }
-/**
- * adopt to C++ python method
- *  hep_ml.speedup.LookupClassifier.convert_lookup_index_to_bins()
- */
 
-
-int PatBBDTSeedClassifier::convertBinIndicesToLookupIndex(std::vector<int> &binIndices)
+double PatBBDTSeedClassifier::getBBDTPrediction(const std::vector<int>& binIndices)
 {
-    int index = 0;
-    const int binPerFeature = 2;
+    return m_tupleClassifier[binIndices];
+}
 
-    for (const auto& indice : binIndices){
-        index *= binPerFeature+1;
-        index += indice;
+void PatBBDTSeedClassifier::initTupleClassifier() {
+    TTree *tree = 0;
+    TFile *f = (TFile *) gROOT->GetListOfFiles()->FindObject("Source/tuple_classifer.root");
+    if (!f || !f->IsOpen()) {
+        f = new TFile("Source/tuple_classifer.root");
     }
-    return index;
+    f->GetObject("tree", tree);
+
+    if (!tree) cout << "Tree is null" << endl;
+
+    tree->SetBranchAddress("x", &x, &b_x);
+    tree->SetBranchAddress("y", &y, &b_y);
+    tree->SetBranchAddress("pred", &pred, &b_pred);
+
+    m_leafTypes.push_back(&x);
+    m_leafTypes.push_back(&y);
+
+
+    Long64_t nentries = tree->GetEntriesFast();
+    for (Long64_t jentry = 0; jentry < nentries; jentry++) {
+        tree->GetEntry(jentry);
+        std::vector<int> binIndices;
+        for (const auto &leaf : m_leafTypes) {
+            binIndices.push_back(*leaf);
+        }
+        m_tupleClassifier.insert(std::make_pair(binIndices, pred));
+    }
+    
 }
 
-double PatBBDTSeedClassifier::getBBDTPrediction(int lookupIndex)
+void PatBBDTSeedClassifier::initBinEdgeMaps()
 {
-    return m_lookupTable[lookupIndex];
-}
-    
-std::vector< std::pair<std::string, std::vector<double> > > PatBBDTSeedClassifier::initBinEdgeMaps()
-{
-    std::vector< std::pair<std::string, std::vector<double> > >   binMap ={
+    m_binsEdgeMap ={
     	 {"x", {5.0,}},
 	 {"y", {5.0,}},
 
  };
-return binMap;
-}
-    
-
-/** right now I am using the simplest idea of importing lookup table.
- *  More sophisticated method is described in 
- *  http://stackoverflow.com/questions/39529799/initialization-of-very-big-vector-in-c/39531749#39531749
- *   thread. Don't know if will be implemented. 
- */
-
-std::vector<double> PatBBDTSeedClassifier::initLookupTable()
-{
-    FILE *inFile;
-    const int elementNumber = 4;
-
-    std::vector<double> lookup_table(elementNumber);
-    if (!(inFile = fopen("./Source/BBDT_lookuptable_binary.dat", "rb"))){
-      cout<<"No file"<<endl;
-      exit(-2222);
-    }
-
-    fread(&lookup_table[0], sizeof(double), elementNumber, inFile);
-    fclose(inFile);
-
-    return lookup_table;
 }
     

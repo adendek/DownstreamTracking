@@ -24,10 +24,12 @@ USER_DIR = Source
 # Flags passed to the preprocessor.
 # Set Google Test's header directory as a system directory, such that
 # the compiler doesn't generate warnings in Google Test headers.
-CPPFLAGS += -isystem $(GTEST_DIR)/include
+CPPFLAGS += -isystem $(GTEST_DIR)/include `root-config --cflags`
 
 # Flags passed to the C++ compiler.
 CXXFLAGS += -g -Wall -Wextra -pthread -std=c++11
+
+LDFLAGS = `root-config --glibs`
 
 # All tests produced by this Makefile.  Remember to add new tests you
 # created to the list.
@@ -82,4 +84,4 @@ PatBBBDTSeedClassifier_tests.o : $(USER_DIR)/PatBBBDTSeedClassifier_tests.cpp \
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(USER_DIR)/PatBBBDTSeedClassifier_tests.cpp
 
 BBDTtests : PatBBDTSeedClassifier.o  PatBBBDTSeedClassifier_tests.o  gtest_main.a
-	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -lpthread $^ -o $@
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $(LDFLAGS)  -lpthread $^ -o $@
