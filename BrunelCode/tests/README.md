@@ -1,9 +1,15 @@
 # Brunel code tests
-This directory contains sources files of the Classifiers Unit Tests.
+This directory contains sources files of the Classifier's Unit Tests suites.
 
-The DummyClassifier has been generated via [PythonGenerator](PythonGenerator) script.
-It's aim is to provide functionality of classifier that return 0.9 if first feature is less than threshold and 0.9 otherwise. 
+The tests are based on gtest framework.
 
-In this case the Lookup Classifier is very easy to debug. 
+## Test strategy
+1. Create LookupClassifier as a wrapper of DecisionTree with dummy features. 
+2. Convert lookup table to NTuple.
+3. Generate the C++ code. Above steps are performed via [this](https://github.com/adendek/DownstreamTracking/blob/master/BrunelCode/tests/PythonGenerator/TableGenerator.ipynb) script
+4. Compile C++ project. Type: make
+5. Run test suite : ./BBDTtests
 
-### All tests are based on gtest framework 
+
+
+
