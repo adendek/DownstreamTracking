@@ -13,12 +13,16 @@ git lb-use Brunel
 git lb-checkout Brunel/2016-patches  Rec/Brunel
 ```
 
-Then you need to copy all source files from this directory into into the appropriate folder before compilation.  
+Then you need to copy all source files from [this](https://github.com/adendek/DownstreamTracking/tree/master/BrunelCode) directory into the appropriate folder before compilation. 
+
+The exception is folder [tests](https://github.com/adendek/DownstreamTracking/tree/master/BrunelCode/tests). It contains 
+set of Unit Tests, based on gtest, to check correctness of evaluation of the trained classifier. It is not a part of a Brunel project.
+
 Make sure you put the source files into correct directory! 
 The content of directory [BrunelCode/Tr/PatAlgorithm](BrunelCode/Tr/PatAlgorithm) 
 have to be moved into **BrunelDev_v51r1/Tf/PatAlgorithms** and so on.
 
-## Now you need to install the compile the project
+## Now you need the compile the project
 ```bash
 cd BrunelDev_v51r1/ 
 make -j10
@@ -36,12 +40,8 @@ gaudirun.py ../options/Brunel_2015.py ../data/Run2-XDIGI.py | tee Brunel.log
 ```
 If you don't want to capture the logs you can remove the pipe from the last command. 
 
-The Brunel should create two files. One of them is the training ntuple. 
+The Brunel should create two root files. One of them is the training ntuple. 
 
  
 ## Attention Workaround!
- You need to manually change line PatBBDTSeedClassifier.cpp:127 to set correct location of the **BBDT_lookuptable_binary.dat** 
- 
- 
-### The directory test contain set of Unit Tests to check correctness of evaluation of the trained classifier
- 
+ You need to manually change line PatBBDTSeedClassifier.cpp:127 to set correct location of the **BBDT_lookuptable_binary.dat**  
