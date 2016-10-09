@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Edited By PoolXMLCatalog.py -->
+<!DOCTYPE POOLFILECATALOG SYSTEM "InMemory">
+<POOLFILECATALOG>
+
+
+  <File ID="BEB9F10D-515B-E411-AD7B-00259074B2BE">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000015_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000015_1.xdigi?svcClass=lhcbDst"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000015_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="24B906BD-4F5B-E411-A944-002590747E0E">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000011_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/Dev/XDIGI/00040581/0000/00040581_00000011_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000011_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="0E7F0207-505B-E411-BFC7-008CFA001F78">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000013_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000013_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000013_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="08F47956-345A-E411-985E-0025907DC9C8">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000003_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000003_1.xdigi?svcClass=lhcbDst"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000003_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="383946DA-D25A-E411-B345-00259059D0D4">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000009_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000009_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000009_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="EEF7CA6E-CC5A-E411-8C31-001E67ABEC6C">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000007_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000007_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000007_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="24499B5A-695C-E411-A345-002590DB924E">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000021_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000021_1.xdigi?svcClass=lhcbDst"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000021_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="3C5E0D61-B15A-E411-BB3E-001E67504E2D">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000005_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000005_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000005_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="46DFD690-4F5B-E411-8254-00259059DAD0">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000016_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000016_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000016_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="5E0F6733-BE58-E411-9DB8-002481E94BFE">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000001_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000001_1.xdigi?svcClass=lhcbDst"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000001_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="901D2A8D-4F5B-E411-91F0-002590A887AC">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000012_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000012_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000012_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="98531A07-E35B-E411-8668-00259059DB52">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000018_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000018_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000018_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="E41FFBEB-9A5C-E411-84EB-008CFA00210C">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000027_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000027_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000027_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="6E3342FB-8D5C-E411-A6FA-0025904B1FBE">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000026_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000026_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000026_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="0E7F8B97-4F5B-E411-B5DA-02163E00F412">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000010_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000010_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000010_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="441C10FE-4F5B-E411-818E-002655213C10">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000017_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://by32-4.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000017_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000017_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="446EDACF-655C-E411-9FB7-00259059EAEE">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000022_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000022_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000022_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="921FE203-C35A-E411-A345-002590DB924E">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000006_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000006_1.xdigi?svcClass=lhcbDst"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000006_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="2AAE8CC4-C05C-E411-9BAA-003048F0E1EC">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000028_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000028_1.xdigi?svcClass=lhcbDst"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000028_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="16CAE288-535C-E411-AC86-0025907DC9F2">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000019_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000019_1.xdigi?svcClass=lhcbDst"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000019_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="70A16668-255A-E411-8546-002481E0E5E8">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000002_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000002_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000002_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="C4808D62-565C-E411-B11A-001E67505815">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000020_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000020_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000020_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="74972D0C-7D5C-E411-B00F-002590AC4C6E">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000024_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000024_1.xdigi?svcClass=lhcbDst"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000024_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="B8BF0D2B-505A-E411-A0F2-14DAE93E5699">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000004_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/Dev/XDIGI/00040581/0000/00040581_00000004_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000004_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="942CA1B4-6F5C-E411-8476-003048F237FE">
+     <physical>
+       <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000023_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000023_1.xdigi"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000023_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="C6A2B101-D55A-E411-BD56-002590DB91FA">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000008_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000008_1.xdigi?svcClass=lhcbDst"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000008_1.xdigi"/>
+     </logical>
+   </File>
+
+  <File ID="48FD5B64-8F5C-E411-B8F4-002590AC4B3E">
+     <physical>
+       <pfn filetype="ROOT_All" name="/usera/jonesc/NFS/data/MC/Run2/XDIGI/00040581_00000025_1.xdigi"/>
+       <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000025_1.xdigi?svcClass=lhcbDst"/>
+     </physical>
+     <logical>
+       <lfn name="/lhcb/MC/Dev/XDIGI/00040581/0000/00040581_00000025_1.xdigi"/>
+     </logical>
+   </File>
+
+</POOLFILECATALOG>
