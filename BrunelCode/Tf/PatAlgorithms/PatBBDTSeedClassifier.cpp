@@ -1,23 +1,23 @@
 
+
 #include "PatBBDTSeedClassifier.h"
-#include <stdlib.h>
-#include <stdio.h>
+#include <iostream>
+#include <sstream>
+#include <fstream>
 
 DECLARE_TOOL_FACTORY( PatBBDTSeedClassifier )
+
+using namespace std;
 
 
 double PatBBDTSeedClassifier::getMvaValue(const std::vector<double>& parametersVector )
 {
-  auto binIndices = getBinIndices(parametersVector);
-  info()<<"bin idicies";
-  for (const auto & ind : binIndices)
-    info()<<ind<<" ";
-  info()<<endmsg;
-  int lookupTableIndex = convertBinIndicesToLookupIndex(binIndices);
-  info()<<"lookup table index "<< lookupTableIndex<<endmsg; 
-  return getBBDTPrediction(lookupTableIndex);
+    auto binIndices = getBinIndices(parametersVector);
+    double prediction = getBBDTPrediction(binIndices);
+    for(const auto& bin: binIndices) debugFile<<bin<<" ";
+    debugFile<<prediction<<endl;
+    return prediction; 
 }
-
 
 
 PatBBDTSeedClassifier::PatBBDTSeedClassifier( const std::string& type,
@@ -33,73 +33,87 @@ StatusCode PatBBDTSeedClassifier::initialize()
 {
     StatusCode sc =  GaudiTool::initialize();
     if(sc.isFailure()) return Error("Failed to initialize", sc);
-    info()<<"init bins edges"<<endmsg;
-    m_binsEdgeMap = initBinEdgeMaps();
-    info()<<"init lookup table"<<endmsg;
-    m_lookupTable = initLookupTable();
-    info()<<"initiazliation end"<<endmsg;
+
+    initBinEdgeMaps();
+    initTupleClassifier();
+    debugFile.open("Brunel_indices_debug.txt");
     return StatusCode::SUCCESS;
+    
 }
 
 std::vector<int> PatBBDTSeedClassifier::getBinIndices(const std::vector<double>& parametersVector)
 {
-  /* info()<<"input: ";
-  for (const auto & el : parametersVector)
-    info()<<el<<" ";
-    info()<<endmsg;*/
-    std::vector<int> binIndicesMap;
-    int actualFeature = 0;
-    int maxBinPerFeature = 4;
+    std::vector<int> binIndices;
+    int featureIt = 0;
     for (const auto& featurePair: m_binsEdgeMap){
-        int binNumber = 0;
-        for(const auto& binValue : featurePair.second) {
-            if (parametersVector[actualFeature] < binValue) {
-	      // info()<<"feature "<<featurePair.first<<" value "<< parametersVector[actualFeature] << "  bin edge "<< binValue<<endmsg;
-                binIndicesMap.push_back(binNumber);
-                break;
-            }
-	    binNumber++;
-	    if(binNumber > maxBinPerFeature-2){
-	      binIndicesMap.push_back(binNumber);
-	      break;
-	    }   
-        }
-        actualFeature++;
+      binIndices.push_back(getIndex(featurePair.second,parametersVector[featureIt]));
+      featureIt++;
     }
-    return binIndicesMap;
+    return binIndices;
 }
-/**
- * adopt to C++ python method
- *  hep_ml.speedup.LookupClassifier.convert_lookup_index_to_bins()
- */
 
 
-int PatBBDTSeedClassifier::convertBinIndicesToLookupIndex(std::vector<int> &binIndices)
+int PatBBDTSeedClassifier::getIndex(const vector<double>& bins, double value)
 {
-    int index = 0;
-    const int nbinPerFeature =4;
+  auto lower_bound = std::lower_bound(bins.begin(), bins.end(), value);
+  return std::distance(bins.begin(),lower_bound);   
+}
 
-    for (const auto& indice : binIndices){
-        index *= nbinPerFeature;
-        index += indice;
+
+double PatBBDTSeedClassifier::getBBDTPrediction(const std::vector<int>& binIndices)
+{
+    return m_tupleClassifier[binIndices];
+}
+
+void PatBBDTSeedClassifier::initTupleClassifier() {
+    
+    ifstream file("/afs/cern.ch/user/a/adendek/lb_devs/BrunelDev_v52r0/Tf/PatAlgorithms/src/BBDT_tuple.csv", std::ifstream::in);
+    // dodac sprawdzanie checksum aby byc pewnym ze jest dobra wartosc 
+    std::string line;
+    std::getline(file, line); // skip header
+    std::cout<<"list of input features"<<line<<std::endl;
+    // get the rest of the lines
+    
+    while (std::getline(file, line))
+    {
+        vector<string> substrings = splitString(line,',');
+        vector<int> indices; 
+        double prediction;
+        convertStringArrayToTuple(substrings ,indices, prediction);
+        m_tupleClassifier.insert(make_pair(indices, prediction));
     }
-    return index;
+    
 }
 
-double PatBBDTSeedClassifier::getBBDTPrediction(int lookupIndex)
+vector<string> PatBBDTSeedClassifier::splitString(const string& toSplit, char token )
 {
-  if(lookupIndex > static_cast<int>(m_lookupTable.size()))
-    return -1;
-  return m_lookupTable[lookupIndex];
+    vector<string> subStrings;
+    
+    std::stringstream stringStream;
+    stringStream.str(toSplit);
+    std::string item;
+    while (getline(stringStream, item, token)) {
+        subStrings.push_back(item);
+    }
+    return subStrings;
 }
-std::vector<std::pair<std::string, std::vector<double>>> PatBBDTSeedClassifier::initBinEdgeMaps()
+
+void PatBBDTSeedClassifier::convertStringArrayToTuple(vector<string>& substrings, vector<int>& indicesVector, double& prediction)
 {
-  std::vector<std::pair<std::string, std::vector<double>>>  binMap ={
+    for(auto it= substrings.begin();it!= substrings.end()-1;it++ ){
+        indicesVector.push_back(atoi((*it).c_str()));
+    }
+    prediction = atof((*(substrings.end()-1)).c_str());
+}
+
+
+void PatBBDTSeedClassifier::initBinEdgeMaps()
+{
+    m_binsEdgeMap ={
     	 {"seed_chi2PerDoF", {1.04402184717,1.61783275814,2.59689245638,}},
+	 {"seed_p", {2809.3865579,4734.49616298,9835.16115022,}},
 	 {"seed_pt", {926.377437342,1129.73667141,1373.44143919,}},
 	 {"seed_nLHCbIDs", {17.0,20.0,22.0,}},
-	 {"seed_nbIT", {0.0,0.0,0.0,}},
-	 {"seed_nLayers", {11.0,12.0,12.0,}},
 	 {"abs_seed_x", {207.828515692,488.389691944,926.731525532,}},
 	 {"abs_seed_y", {128.703194603,308.451486415,676.400705441,}},
 	 {"abs_seed_tx", {0.101668345854,0.229365978794,0.413773822268,}},
@@ -108,28 +122,5 @@ std::vector<std::pair<std::string, std::vector<double>>> PatBBDTSeedClassifier::
 	 {"pseudo_rapidity", {0.119803331508,0.243167784582,0.412974432133,}},
 
  };
-return binMap;
-}
-    
-
-/** right now I am using the simplest idea of importing lookup table.
- *  More sophisticated method is described in 
- *  http://stackoverflow.com/questions/39529799/initialization-of-very-big-vector-in-c/39531749#39531749
- *   thread. Don't know if will be implemented. 
- */
-
-std::vector<double> PatBBDTSeedClassifier::initLookupTable()
-{
-    FILE *inFile;
-    const int elementNumber = 4194304;
-
-    std::vector<double> lookup_table(elementNumber);
-    if (!(inFile = fopen("/afs/cern.ch/user/a/adendek/tracking_brunel/BrunelDev_v51r0/Tf/PatAlgorithms/src/BBDT_lookuptable_binary.dat", "rb")))
-        exit(EXIT_FAILURE);
-
-    fread(&lookup_table[0], sizeof(double), elementNumber, inFile);
-    fclose(inFile);
-
-    return lookup_table;
 }
     

@@ -1425,12 +1425,11 @@ double PatLongLivedTracking::evaluateSeedClassifier(const LHCb::Track *track){
     Gaudi::XYZPoint position = track->position();
     Gaudi::XYZVector slopes  = track->slopes();
 
-    double seed_r = std::sqrt(slopes.x()*slopes.x()+slopes.y()*slopes.y());
+    double seed_r = std::sqrt(position.x()*position.x()+position.y()*position.y());
     double  pseudo_rapidity =std::atanh(track->pt()/track->p());
 
-    std::vector<double> vals = { track->chi2PerDoF(), track->pt(),
-                                 static_cast<double>(track->nLHCbIDs()), static_cast<double>(nbIT),
-                                 static_cast<double>(nLayers),
+    std::vector<double> vals = { track->chi2PerDoF(), track->p(), track->pt(),
+                                 static_cast<double>(track->nLHCbIDs()),
 				 std::abs(position.x()), std::abs(position.y()),
                                  std::abs(slopes.x()), std::abs(slopes.y()),
                                  seed_r, pseudo_rapidity
