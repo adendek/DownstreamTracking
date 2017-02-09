@@ -4,7 +4,7 @@ from Configurables import Brunel , LHCbApp , DDDBConf
 from Configurables import NTupleSvc 
 
 # Brunel Settings
-Brunel().EvtMax     = 10000
+Brunel().EvtMax     = 50000
 Brunel().PrintFreq  = 1
 Brunel().DataType   = "2015"
 Brunel().WithMC     = True 
@@ -50,13 +50,13 @@ CondDB.LocalTags = {
 #Brunel().DDDBtag = 'dddb-20150424'
 #Brunel().CondDBtag = 'sim-20140204-vc-md100'
 
-Brunel().DDDBtag = 'dddb-20140729'                                                                                                                                                                                                           
-Brunel().CondDBtag = 'sim-20140730-vc-md100'  
+Brunel().DDDBtag = 'dddb-20150724'                                                                                                                                                                                                           
+Brunel().CondDBtag = 'sim-20161124-2-vc-mu100'  
 ###################################
 
 # Tracking Settings
 from Configurables import TrackSys
-TrackSys().TrackTypes= [ "Velo", "Forward", "Seeding", "Downstream"] #Choose the track types you want to reconstruct
+TrackSys().TrackTypes= [ "Velo", "Seeding", "Downstream"] #Choose the track types you want to reconstruct
 from Configurables import RecSysConf
 #RecSysConf().RecoSequence = ["Decoding","Tr"]# More options: "Vertex","RICH","CALO","MUON","PROTO","SUMMARY"
 Brunel().RecoSequence = ["Decoding","VELO", "TrHLT1", "Vertex", "TrHLT2"]
@@ -96,7 +96,7 @@ pllt().TimingMeasurement =  True
 
 
 ApplicationMgr().ExtSvc +=  [ NTupleSvc() ]
-fileName="Brunel_test_wcharge_10kev"
+fileName="~/work/tracking_data/my/Brunel_BdJPsiKs_MagD"
 #fileName="Brunel_my_fisher_debug_10kev"
 tupleName = "FILE1 DATAFILE='" + fileName  + '.root' + "' TYP='ROOT' OPT='NEW'"
 NTupleSvc().Output = [ tupleName ]

@@ -96,7 +96,7 @@ PatLongLivedTracking::PatLongLivedTracking( const std::string& name,
 
   // -- Parameter to reject seed track which are likely ghosts
   declareProperty( "MVAPreselectionTool",                      m_mvaPreselectionToolName        = "PatBBDTSeedClassifier" );
-  declareProperty( "SeedClasificationCut",                   m_seedCut               = -1                                        );
+  declareProperty( "SeedClasificationCut",                   m_seedCut               = 0.37                                        );
   declareProperty( "MVAPreselectionTool",                      m_mvaFinalSelectionToolName        = "PatMPLFinalSelectionTool" );
   declareProperty( "MPLCut",                      m_trackCut              = 0.42                                       );
 
@@ -318,11 +318,11 @@ StatusCode PatLongLivedTracking::execute() {
     if( UNLIKELY(m_withDebugTool) ){m_debugTool->recordStepInProcess("initEvent",m_debugTool->isTrueTrack(tr,ttCoords));}//AD, add debug step here to see if seed is reco'ble ad downstream
 
 
-    // classification of the seeds
+    // classification of the T-seeds
     const double seedClassifierValue = evaluateSeedClassifier(tr);
     if( UNLIKELY(m_withDebugTool) ){m_debugTool->seedTuple(tr,seedClassifierValue);}
     if( seedClassifierValue < m_seedCut ) continue;
-    if( UNLIKELY(m_withDebugTool) ){m_debugTool->recordStepInProcess("seedClassifierValue",m_debugTool->isTrueTrack(tr,ttCoords));}//AD check seedClassifierValue
+    if( UNLIKELY(m_withDebugTool) ){m_debugTool->recordStepInProcess("seedClassifier",m_debugTool->isTrueTrack(tr,ttCoords));}//AD check seedClassifierValue
 
 
       if ( 0 <= m_seedKey && m_seedKey == tr->key() ) m_printing = true;
@@ -1409,7 +1409,7 @@ void PatLongLivedTracking::addOverlapRegions( PatDownTrack& track ){
 //=============================================================================
 double PatLongLivedTracking::evaluateSeedClassifier(const LHCb::Track *track){
 
-   const unsigned int nbIT = std::count_if( track->lhcbIDs().begin(), track->lhcbIDs().end(),
+  const unsigned int nbIT = std::count_if( track->lhcbIDs().begin(), track->lhcbIDs().end(),
                                             [](const LHCb::LHCbID id){ return id.isIT();});
     // number of layers
     std::array<bool, 12> layers;
@@ -1428,8 +1428,8 @@ double PatLongLivedTracking::evaluateSeedClassifier(const LHCb::Track *track){
     double seed_r = std::sqrt(position.x()*position.x()+position.y()*position.y());
     double  pseudo_rapidity =std::atanh(track->pt()/track->p());
 
-    std::vector<double> vals = { track->chi2PerDoF(), track->p(), track->pt(),
-                                 static_cast<double>(track->nLHCbIDs()),
+    std::vector<double> vals = { track->chi2PerDoF(),track->p(),  track->pt(),
+                                 static_cast<double>(track->nLHCbIDs()), 
 				 std::abs(position.x()), std::abs(position.y()),
                                  std::abs(slopes.x()), std::abs(slopes.y()),
                                  seed_r, pseudo_rapidity
@@ -1467,7 +1467,7 @@ std::map<std::string, double> PatLongLivedTracking::getTrackParameters(const Pat
 
     return trackParameters;
 }
-// dumy impelemntation. Will be improved  Return -chi2
+// dummy implemntation. Will be improved  Return -chi2
 double PatLongLivedTracking::getMPLValue( const PatDownTrack& track, LHCb::Track* trackSeed ) {
   return (-1)*track.chi2();
 }

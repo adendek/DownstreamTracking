@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Edited By PoolXMLCatalog.py -->
+<!DOCTYPE POOLFILECATALOG SYSTEM "InMemory">
+<POOLFILECATALOG>
+
+<File ID="CA4ED4F0-0CC3-E611-A144-0025907DC9AC">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000133_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000133_2.xdigi"/>
+   </logical>
+</File>
+<File ID="02A39E1C-4FC2-E611-85FA-0025909084B2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd8.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000099_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000099_2.xdigi"/>
+   </logical>
+</File>
+<File ID="66294A02-4CC2-E611-97BA-002590909282">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000029_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000029_2.xdigi"/>
+   </logical>
+</File>
+<File ID="7AAC69F7-26C3-E611-8E30-901B0E0A2170">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000193_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000193_2.xdigi"/>
+   </logical>
+</File>
+<File ID="4887D73C-25C3-E611-9846-901B0E0A2144">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000158_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000158_2.xdigi"/>
+   </logical>
+</File>
+<File ID="9C63D1B8-48C2-E611-BA0B-00259090783E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000016_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000016_2.xdigi"/>
+   </logical>
+</File>
+<File ID="26372154-1DC3-E611-B4C3-B083FEDFCBD6">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd18.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000101_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000101_2.xdigi"/>
+   </logical>
+</File>
+<File ID="9AFAAE77-49C2-E611-9371-0025909082A2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000048_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000048_2.xdigi"/>
+   </logical>
+</File>
+<File ID="CC19E91C-2CC3-E611-A13C-0025901D4892">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000149_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000149_2.xdigi"/>
+   </logical>
+</File>
+<File ID="EECE05B0-18C3-E611-A61F-002590A80DDA">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000123_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000123_2.xdigi"/>
+   </logical>
+</File>
+<File ID="4A65C914-03C3-E611-8377-001E67E59BE3">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000198_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000198_2.xdigi"/>
+   </logical>
+</File>
+<File ID="CA1C7E3F-47C2-E611-A3F1-0025909082A2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://rabbit3.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000037_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000037_2.xdigi"/>
+   </logical>
+</File>
+<File ID="70EFF3DC-4CC2-E611-916E-002590907646">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd3.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000057_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000057_2.xdigi"/>
+   </logical>
+</File>
+<File ID="50208D88-EBC3-E611-8511-525435915701">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000214_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000214_2.xdigi"/>
+   </logical>
+</File>
+<File ID="44870E7C-4AC2-E611-8251-00259090822A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://whale5.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000066_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000066_2.xdigi"/>
+   </logical>
+</File>
+<File ID="AE14899F-4BC2-E611-BFD1-002590907832">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door02.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000051_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000051_2.xdigi"/>
+   </logical>
+</File>
+<File ID="6217E96D-61C2-E611-A77F-0025909081E6">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000100_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000100_2.xdigi"/>
+   </logical>
+</File>
+<File ID="FAA6E7C8-49C2-E611-A48C-00259090781A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000025_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000025_2.xdigi"/>
+   </logical>
+</File>
+<File ID="FED15D10-4EC2-E611-87A4-0025909084B2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000059_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000059_2.xdigi"/>
+   </logical>
+</File>
+<File ID="8620CD0E-46C2-E611-8BA2-0025909090C2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000001_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000001_2.xdigi"/>
+   </logical>
+</File>
+<File ID="A4993BB9-17C3-E611-8FBD-001E6779262E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000118_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000118_2.xdigi"/>
+   </logical>
+</File>
+<File ID="7E9CD135-47C2-E611-97E3-00259090821E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd3.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000027_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000027_2.xdigi"/>
+   </logical>
+</File>
+<File ID="B0D5FE19-1AC3-E611-B139-B083FECE912C">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd10.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000150_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000150_2.xdigi"/>
+   </logical>
+</File>
+<File ID="EC2DC3DF-47C2-E611-A835-00259007C36E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door04.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000003_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000003_2.xdigi"/>
+   </logical>
+</File>
+<File ID="D63DEBF7-29C4-E611-BE6E-0015171F70D8">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000218_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000218_2.xdigi"/>
+   </logical>
+</File>
+<File ID="78ACD2EB-D9C3-E611-BFC3-0CC47A00923A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000199_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000199_2.xdigi"/>
+   </logical>
+</File>
+<File ID="9C17FCD1-1DC3-E611-8FAD-001E0B4B4D62">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000129_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000129_2.xdigi"/>
+   </logical>
+</File>
+<File ID="C045C3FA-59C2-E611-A32E-00259090783A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000070_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000070_2.xdigi"/>
+   </logical>
+</File>
+<File ID="0219BFB2-45C2-E611-A82B-00259090829A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door01.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000035_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000035_2.xdigi"/>
+   </logical>
+</File>
+<File ID="AC9F07D0-59C2-E611-AC32-0025909081F2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000097_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000097_2.xdigi"/>
+   </logical>
+</File>
+<File ID="EA0730E7-50C2-E611-87B5-002590908F0A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000020_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000020_2.xdigi"/>
+   </logical>
+</File>
+<File ID="5696FA8E-15C3-E611-87AB-B083FED72F66">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000142_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000142_2.xdigi"/>
+   </logical>
+</File>
+<File ID="9AFA7A8A-4CC2-E611-A656-0025909084B2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000083_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000083_2.xdigi"/>
+   </logical>
+</File>
+<File ID="44F4F201-17C4-E611-A576-FA163EB60CA4">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000206_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000206_2.xdigi"/>
+   </logical>
+</File>
+<File ID="9CCCBD45-3DC3-E611-B122-564DA9FEA910">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000131_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000131_2.xdigi"/>
+   </logical>
+</File>
+<File ID="089FA01B-42C2-E611-8991-0025909090C2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000017_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000017_2.xdigi"/>
+   </logical>
+</File>
+<File ID="C0A46171-54C2-E611-87B1-00259090845A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000065_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000065_2.xdigi"/>
+   </logical>
+</File>
+<File ID="5AD418CF-4DC2-E611-8EC9-00259090840A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000031_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000031_2.xdigi"/>
+   </logical>
+</File>
+<File ID="562864E6-0CC4-E611-B2EE-0CC47A00942E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000208_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000208_2.xdigi"/>
+   </logical>
+</File>
+<File ID="32B8949D-51C2-E611-A425-0025909090C2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd2.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000081_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000081_2.xdigi"/>
+   </logical>
+</File>
+<File ID="BE9E0B50-47C2-E611-BE22-0025909084D6">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000050_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000050_2.xdigi"/>
+   </logical>
+</File>
+<File ID="66442AC0-FBC2-E611-93A7-001E673973C8">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000162_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000162_2.xdigi"/>
+   </logical>
+</File>
+<File ID="8833BC34-2FC3-E611-9A55-901B0E0A1BC8">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000110_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000110_2.xdigi"/>
+   </logical>
+</File>
+<File ID="5ABE0615-49C2-E611-BE4E-002590907802">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://whale6.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000047_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000047_2.xdigi"/>
+   </logical>
+</File>
+<File ID="C675E60D-33C3-E611-BD55-008CFA00206C">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000161_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000161_2.xdigi"/>
+   </logical>
+</File>
+<File ID="8E87E94C-4FC2-E611-8E63-00259090847A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000068_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000068_2.xdigi"/>
+   </logical>
+</File>
+<File ID="FC982ABE-3FC3-E611-973C-6CC2173BBE60">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door06.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000191_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000191_2.xdigi"/>
+   </logical>
+</File>
+<File ID="4840FACC-18C3-E611-9EBA-008CFA002914">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000160_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000160_2.xdigi"/>
+   </logical>
+</File>
+<File ID="E035BD39-48C2-E611-A1F1-00259090848A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd15.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000013_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000013_2.xdigi"/>
+   </logical>
+</File>
+<File ID="3A104FDF-E7C5-E611-9AF7-001EC9ADE398">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000248_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000248_2.xdigi"/>
+   </logical>
+</File>
+<File ID="1059D0B1-E3C5-E611-B2F1-001E67792620">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000246_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000246_2.xdigi"/>
+   </logical>
+</File>
+<File ID="62CE8DF3-1FC3-E611-8737-78E3B5F4B1C8">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000179_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000179_2.xdigi"/>
+   </logical>
+</File>
+<File ID="D6B34497-10C4-E611-813D-0025902255FE">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000227_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000227_2.xdigi"/>
+   </logical>
+</File>
+<File ID="64FF9217-47C2-E611-ABD4-0025909090C2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000030_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000030_2.xdigi"/>
+   </logical>
+</File>
+<File ID="563DE998-E9C2-E611-94AE-001E67792486">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000166_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000166_2.xdigi"/>
+   </logical>
+</File>
+<File ID="005573B0-12C3-E611-B0E2-B083FEDFC77D">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000130_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000130_2.xdigi"/>
+   </logical>
+</File>
+<File ID="28C627B0-48C2-E611-B611-00259090836A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000052_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000052_2.xdigi"/>
+   </logical>
+</File>
+<File ID="7A774712-0EC3-E611-B125-3417EBE33C84">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door05.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000119_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000119_2.xdigi"/>
+   </logical>
+</File>
+<File ID="565FF4C5-16C3-E611-B8AC-002655810148">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000170_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000170_2.xdigi"/>
+   </logical>
+</File>
+<File ID="FCFE7E93-0AC3-E611-858C-001E6739B0D9">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000156_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000156_2.xdigi"/>
+   </logical>
+</File>
+<File ID="80238CA3-45C2-E611-94EB-002590909126">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door01.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000021_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000021_2.xdigi"/>
+   </logical>
+</File>
+<File ID="48732DB7-FAC2-E611-90DF-02163E00C172">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000194_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000194_2.xdigi"/>
+   </logical>
+</File>
+<File ID="C4ED7E61-2AC4-E611-B234-02163E016113">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000205_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000205_2.xdigi"/>
+   </logical>
+</File>
+<File ID="F0BD1423-05C3-E611-8969-0025B3E05BE9">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000116_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000116_2.xdigi"/>
+   </logical>
+</File>
+<File ID="00166473-49C2-E611-8631-002590908336">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://bw32-3.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000064_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000064_2.xdigi"/>
+   </logical>
+</File>
+<File ID="5AE8CF43-1CC3-E611-860E-002590A371D4">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000169_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000169_2.xdigi"/>
+   </logical>
+</File>
+<File ID="CC021A58-03C4-E611-B84E-02163E014AF2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000221_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000221_2.xdigi"/>
+   </logical>
+</File>
+<File ID="9C5E9AD3-0EC3-E611-99BB-A0000220FE80">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door03.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000197_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000197_2.xdigi"/>
+   </logical>
+</File>
+<File ID="B2172009-C9C4-E611-A877-564DA9FEA902">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000234_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000234_2.xdigi"/>
+   </logical>
+</File>
+<File ID="5E7092BF-4DC2-E611-9D18-00259090840A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://bw32-3.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000034_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000034_2.xdigi"/>
+   </logical>
+</File>
+<File ID="98674662-52C2-E611-A4FD-00259090845E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000086_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000086_2.xdigi"/>
+   </logical>
+</File>
+<File ID="3EF1CED3-1DC3-E611-A931-001B21B3F8E8">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000120_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000120_2.xdigi"/>
+   </logical>
+</File>
+<File ID="0C815B36-54C2-E611-A523-00259090845A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000075_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000075_2.xdigi"/>
+   </logical>
+</File>
+<File ID="C66E699C-4CC2-E611-BF19-00259090847A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000071_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000071_2.xdigi"/>
+   </logical>
+</File>
+<File ID="B888DA00-52C2-E611-862F-00259090822E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000074_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000074_2.xdigi"/>
+   </logical>
+</File>
+<File ID="5661F4C0-51C2-E611-9552-0025909081EE">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://rabbit3.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000073_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000073_2.xdigi"/>
+   </logical>
+</File>
+<File ID="328A70E6-55C2-E611-A951-00259090846A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000093_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000093_2.xdigi"/>
+   </logical>
+</File>
+<File ID="B4B49BEF-4CC2-E611-913A-00259090847A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000079_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000079_2.xdigi"/>
+   </logical>
+</File>
+<File ID="3096C459-43C2-E611-888A-002590907882">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://rabbit3.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000010_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000010_2.xdigi"/>
+   </logical>
+</File>
+<File ID="3C438757-91C3-E611-99F9-0800277F791E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000220_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000220_2.xdigi"/>
+   </logical>
+</File>
+<File ID="86C2FDA1-02C3-E611-BC65-002590A81DAC">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000113_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000113_2.xdigi"/>
+   </logical>
+</File>
+<File ID="AC9B2AB7-49C2-E611-BC9A-002590907832">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000036_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000036_2.xdigi"/>
+   </logical>
+</File>
+<File ID="D289AA9A-1CC3-E611-97CB-00221959416E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000153_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000153_2.xdigi"/>
+   </logical>
+</File>
+<File ID="3C1685E5-1EC3-E611-A144-0019BB362D7E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000112_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000112_2.xdigi"/>
+   </logical>
+</File>
+<File ID="8802B240-F7C5-E611-8DE8-001EC9ADFC39">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000244_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000244_2.xdigi"/>
+   </logical>
+</File>
+<File ID="6661909D-50C2-E611-ACB3-00259090822E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000054_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000054_2.xdigi"/>
+   </logical>
+</File>
+<File ID="4A63F463-4FC2-E611-92F1-0025909083DA">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000087_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000087_2.xdigi"/>
+   </logical>
+</File>
+<File ID="4CFC2528-13C3-E611-AA03-001E67E6F8C3">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000163_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000163_2.xdigi"/>
+   </logical>
+</File>
+<File ID="FC6E94E4-43C2-E611-B69F-00259090846E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000018_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000018_2.xdigi"/>
+   </logical>
+</File>
+<File ID="FA9B9F6E-56C2-E611-A50F-0025909084EE">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd2.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000098_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000098_2.xdigi"/>
+   </logical>
+</File>
+<File ID="069D200B-4AC2-E611-9385-0025909076D2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door01.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000026_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000026_2.xdigi"/>
+   </logical>
+</File>
+<File ID="40A052FA-4AC2-E611-93A0-00259090822E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000058_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000058_2.xdigi"/>
+   </logical>
+</File>
+<File ID="566A9B51-52C2-E611-A520-002590904296">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://whale5.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000005_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000005_2.xdigi"/>
+   </logical>
+</File>
+<File ID="70376EF3-5AC2-E611-AAB6-002590908236">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000067_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000067_2.xdigi"/>
+   </logical>
+</File>
+<File ID="80FB209E-18C4-E611-894A-A4BADB38DF5A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door05.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000225_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000225_2.xdigi"/>
+   </logical>
+</File>
+<File ID="C89F65C5-D1C6-E611-BCA2-70106F4A9388">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000257_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000257_2.xdigi"/>
+   </logical>
+</File>
+<File ID="EA17E9FC-4EC2-E611-9E65-00259090821E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd10.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000055_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000055_2.xdigi"/>
+   </logical>
+</File>
+<File ID="1CEEED9F-60C4-E611-9AE7-0800273AA2B9">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000235_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000235_2.xdigi"/>
+   </logical>
+</File>
+<File ID="7E668B6B-23C3-E611-ABAE-00266CF94D50">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000171_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000171_2.xdigi"/>
+   </logical>
+</File>
+<File ID="3CFC0008-22C3-E611-A841-901B0E0A1A94">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000109_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000109_2.xdigi"/>
+   </logical>
+</File>
+<File ID="0296778C-07C4-E611-8349-0CC47A70BD84">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door05.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000201_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000201_2.xdigi"/>
+   </logical>
+</File>
+<File ID="82C69CD9-71C3-E611-8A4B-001E67FA413B">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000104_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000104_2.xdigi"/>
+   </logical>
+</File>
+<File ID="9CE1BA35-50C2-E611-B018-002590907646">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd3.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000092_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000092_2.xdigi"/>
+   </logical>
+</File>
+<File ID="6E1569E9-4CC2-E611-AAB4-0025909082A2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000042_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000042_2.xdigi"/>
+   </logical>
+</File>
+<File ID="96E9964A-69C5-E611-9D0B-0800273AC96B">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000245_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000245_2.xdigi"/>
+   </logical>
+</File>
+<File ID="52B7921A-02C3-E611-BF94-001E677928C8">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000124_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000124_2.xdigi"/>
+   </logical>
+</File>
+<File ID="B89E50A3-46C2-E611-962B-0025909084A2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://whale5.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000019_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000019_2.xdigi"/>
+   </logical>
+</File>
+<File ID="D4CB7460-20C3-E611-9F74-FA163E59E13C">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000181_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000181_2.xdigi"/>
+   </logical>
+</File>
+<File ID="5E29F583-54C2-E611-BD31-00259090846E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000088_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000088_2.xdigi"/>
+   </logical>
+</File>
+<File ID="9C756ABA-27C3-E611-AC3E-001B21B95F34">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000176_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000176_2.xdigi"/>
+   </logical>
+</File>
+<File ID="DCD1A8C8-83C4-E611-995B-0800278636BD">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000229_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000229_2.xdigi"/>
+   </logical>
+</File>
+<File ID="52DBF5DD-02C3-E611-9084-001E673968BA">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000185_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000185_2.xdigi"/>
+   </logical>
+</File>
+<File ID="566A79FB-E6C3-E611-BDDC-842B2B4870E0">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000212_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000212_2.xdigi"/>
+   </logical>
+</File>
+<File ID="E642D4D1-44C2-E611-84BE-002590907646">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000015_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000015_2.xdigi"/>
+   </logical>
+</File>
+<File ID="48DF72A5-56C2-E611-851F-00259090845E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000069_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000069_2.xdigi"/>
+   </logical>
+</File>
+<File ID="A8110C43-47C2-E611-AFEE-00259090836A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000096_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000096_2.xdigi"/>
+   </logical>
+</File>
+<File ID="E8EF094A-1EC3-E611-81E4-78E3B5F4A148">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd2.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000184_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000184_2.xdigi"/>
+   </logical>
+</File>
+<File ID="029E130F-91C3-E611-89FE-080027886A7F">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000210_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000210_2.xdigi"/>
+   </logical>
+</File>
+<File ID="D468DC47-33C4-E611-96DD-02163E01657A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000217_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000217_2.xdigi"/>
+   </logical>
+</File>
+<File ID="467D7A90-17C3-E611-A14F-B083FED72211">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000145_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000145_2.xdigi"/>
+   </logical>
+</File>
+<File ID="F0EC63F3-10C3-E611-87D4-FA163E5A3455">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000186_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000186_2.xdigi"/>
+   </logical>
+</File>
+<File ID="90927299-34C3-E611-BE9E-0022195942B8">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000121_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000121_2.xdigi"/>
+   </logical>
+</File>
+<File ID="1494C0D8-1CC3-E611-A491-00259048BEF0">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000180_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000180_2.xdigi"/>
+   </logical>
+</File>
+<File ID="EC6DA8AE-4EC2-E611-B2AB-00259090846E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000041_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000041_2.xdigi"/>
+   </logical>
+</File>
+<File ID="C2B57605-4DC2-E611-950D-0025909082B6">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000043_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000043_2.xdigi"/>
+   </logical>
+</File>
+<File ID="EC4D1F0D-53C2-E611-93E1-00259090788E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://rabbit3.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000094_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000094_2.xdigi"/>
+   </logical>
+</File>
+<File ID="16E904A3-B9C5-E611-A77E-02163E015DAF">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000247_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000247_2.xdigi"/>
+   </logical>
+</File>
+<File ID="E45EFBE7-0EC4-E611-945F-002590225676">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://whale6.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000215_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000215_2.xdigi"/>
+   </logical>
+</File>
+<File ID="44537849-4FC4-E611-AF2D-FA163E609CFB">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000213_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000213_2.xdigi"/>
+   </logical>
+</File>
+<File ID="D0B2CF62-12C3-E611-9F2B-002590DE3946">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door01.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000152_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000152_2.xdigi"/>
+   </logical>
+</File>
+<File ID="923D8F61-4EC2-E611-A38C-002590907876">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000063_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000063_2.xdigi"/>
+   </logical>
+</File>
+<File ID="8C531482-29C3-E611-A88C-001E67E95BCA">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000190_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000190_2.xdigi"/>
+   </logical>
+</File>
+<File ID="A8C6E830-30C3-E611-B1D4-002590A8882C">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000174_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000174_2.xdigi"/>
+   </logical>
+</File>
+<File ID="F2B25973-47C2-E611-A2B0-002590908EC2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000028_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000028_2.xdigi"/>
+   </logical>
+</File>
+<File ID="80F017B6-48C2-E611-826F-00259090836A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000061_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000061_2.xdigi"/>
+   </logical>
+</File>
+<File ID="E27CCED5-19C3-E611-ADF0-0026552119C8">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000141_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000141_2.xdigi"/>
+   </logical>
+</File>
+<File ID="FEFBABE5-0EC3-E611-BDC6-02163E00CE97">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000172_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000172_2.xdigi"/>
+   </logical>
+</File>
+<File ID="DEA9F55F-1CC3-E611-9FB2-901B0E0A1B7C">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000168_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000168_2.xdigi"/>
+   </logical>
+</File>
+<File ID="56ABE7EA-20C3-E611-8866-002590A4C6AE">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000132_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000132_2.xdigi"/>
+   </logical>
+</File>
+<File ID="5836B06D-34C3-E611-850C-F8BC120CBE00">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000128_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000128_2.xdigi"/>
+   </logical>
+</File>
+<File ID="403DE36B-04C4-E611-B790-44A84223A06D">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door01.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000200_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000200_2.xdigi"/>
+   </logical>
+</File>
+<File ID="C245CA36-6EC3-E611-8CD8-0025B326B37E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000157_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000157_2.xdigi"/>
+   </logical>
+</File>
+<File ID="92DE2AC2-4CC2-E611-9A25-002590908F0A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door03.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000085_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000085_2.xdigi"/>
+   </logical>
+</File>
+<File ID="4CAC3AC6-51C2-E611-97F8-00259090845A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000091_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000091_2.xdigi"/>
+   </logical>
+</File>
+<File ID="84627FF6-48C2-E611-AA5E-00259090822E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000004_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000004_2.xdigi"/>
+   </logical>
+</File>
+<File ID="BAB3BA30-28C3-E611-9BD1-3CFDFE9EB2E0">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000127_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000127_2.xdigi"/>
+   </logical>
+</File>
+<File ID="F8735154-15C3-E611-9204-842B2B0A4CDE">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000154_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000154_2.xdigi"/>
+   </logical>
+</File>
+<File ID="7677B4C1-46C2-E611-A325-002590909282">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000012_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000012_2.xdigi"/>
+   </logical>
+</File>
+<File ID="148FB7AD-51C2-E611-936D-00259090848A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd3.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000076_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000076_2.xdigi"/>
+   </logical>
+</File>
+<File ID="4416B284-12C4-E611-B9EA-FA163E9ACC1A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000209_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000209_2.xdigi"/>
+   </logical>
+</File>
+<File ID="B4B04BF9-3BC3-E611-A5F3-001E67E6F5AD">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000175_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000175_2.xdigi"/>
+   </logical>
+</File>
+<File ID="7E109676-71C4-E611-A8CD-080027B70A82">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000230_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000230_2.xdigi"/>
+   </logical>
+</File>
+<File ID="CC71DBCF-4DC2-E611-B2D6-0025909083DA">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://rabbit3.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000040_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000040_2.xdigi"/>
+   </logical>
+</File>
+<File ID="800D77E9-4CC3-E611-85E2-001E67F8F6CD">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000192_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000192_2.xdigi"/>
+   </logical>
+</File>
+<File ID="C8F743C2-48C2-E611-B3BA-0025909082C2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000007_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000007_2.xdigi"/>
+   </logical>
+</File>
+<File ID="4A34AD5B-46C2-E611-8B03-0025909081F2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000023_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000023_2.xdigi"/>
+   </logical>
+</File>
+<File ID="E07E33ED-4DC2-E611-BAC9-002590908352">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000044_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000044_2.xdigi"/>
+   </logical>
+</File>
+<File ID="76207A14-EDC3-E611-8D12-FA163E3A554D">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000203_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000203_2.xdigi"/>
+   </logical>
+</File>
+<File ID="2EA4BF82-4FC2-E611-9449-00259090840A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd2.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000072_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000072_2.xdigi"/>
+   </logical>
+</File>
+<File ID="86760D22-23C3-E611-B53D-001E6779286C">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000111_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000111_2.xdigi"/>
+   </logical>
+</File>
+<File ID="002DAF8A-48C2-E611-9859-002590908352">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door01.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000056_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000056_2.xdigi"/>
+   </logical>
+</File>
+<File ID="FC9CC4F3-16C3-E611-B527-B083FEDFBEC3">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000155_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000155_2.xdigi"/>
+   </logical>
+</File>
+<File ID="D273EDE5-1CC3-E611-B09F-901B0E0A1F04">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door01.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000159_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000159_2.xdigi"/>
+   </logical>
+</File>
+<File ID="6E15D5D2-56C2-E611-888B-00259090847A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000084_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000084_2.xdigi"/>
+   </logical>
+</File>
+<File ID="C05966CE-1EC3-E611-A60B-3CFDFE9EB328">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000117_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000117_2.xdigi"/>
+   </logical>
+</File>
+<File ID="9652AC48-D3C5-E611-A5EA-0CC47A1DF812">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000250_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000250_2.xdigi"/>
+   </logical>
+</File>
+<File ID="4A760C23-00C3-E611-B69A-3417EBE741DA">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd15.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000183_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000183_2.xdigi"/>
+   </logical>
+</File>
+<File ID="943ECEBB-1FC3-E611-8966-0025901D46E4">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000135_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000135_2.xdigi"/>
+   </logical>
+</File>
+<File ID="86B1BF44-63C3-E611-BAC3-FA163EB12DDB">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000146_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000146_2.xdigi"/>
+   </logical>
+</File>
+<File ID="66E8C134-4CC2-E611-BF6F-002590908492">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000008_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000008_2.xdigi"/>
+   </logical>
+</File>
+<File ID="08DCECE5-4DC2-E611-BA6B-00259090822E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door06.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000060_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000060_2.xdigi"/>
+   </logical>
+</File>
+<File ID="D6BCA26F-E3C5-E611-81FC-002590207884">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://whale6.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000251_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000251_2.xdigi"/>
+   </logical>
+</File>
+<File ID="D634328C-45C2-E611-B1B8-002590909126">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000024_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000024_2.xdigi"/>
+   </logical>
+</File>
+<File ID="869EE670-4CC2-E611-90E8-00259090765E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://whale5.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000046_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000046_2.xdigi"/>
+   </logical>
+</File>
+<File ID="CAA9C19E-F0C5-E611-8835-3417EBE64597">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000253_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000253_2.xdigi"/>
+   </logical>
+</File>
+<File ID="544EB2CF-02C3-E611-9339-7845C4FC3B99">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door03.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000165_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000165_2.xdigi"/>
+   </logical>
+</File>
+<File ID="C205CD05-63C4-E611-9503-080027319972">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000228_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000228_2.xdigi"/>
+   </logical>
+</File>
+<File ID="A89CB3AF-48C2-E611-80EE-0025909090C2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd15.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000009_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000009_2.xdigi"/>
+   </logical>
+</File>
+<File ID="E2D7D9E5-9FC6-E611-B299-002655212C48">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000255_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000255_2.xdigi"/>
+   </logical>
+</File>
+<File ID="0AC2AAD2-4CC2-E611-BE6C-002590908F0A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://whale5.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000038_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000038_2.xdigi"/>
+   </logical>
+</File>
+<File ID="1E2D8AC2-E1C5-E611-98A8-0CC47A0091A4">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd2.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000243_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000243_2.xdigi"/>
+   </logical>
+</File>
+<File ID="FC30E043-54C2-E611-ACCB-00259090846E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000090_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000090_2.xdigi"/>
+   </logical>
+</File>
+<File ID="AC13E00E-5EC4-E611-B89F-080027D7027C">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000241_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000241_2.xdigi"/>
+   </logical>
+</File>
+<File ID="1C4781F0-4DC2-E611-BAD7-00259090821E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000078_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000078_2.xdigi"/>
+   </logical>
+</File>
+<File ID="DA038FF1-04C3-E611-8B04-001E67E6F990">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000143_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000143_2.xdigi"/>
+   </logical>
+</File>
+<File ID="66865FF2-4DC2-E611-80EE-0025909082CA">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd3.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000089_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000089_2.xdigi"/>
+   </logical>
+</File>
+<File ID="724A1EF8-4FC2-E611-AEE0-00259090845E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door04.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000080_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000080_2.xdigi"/>
+   </logical>
+</File>
+<File ID="0A0B3527-1FC3-E611-B847-00145E551C8B">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000102_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000102_2.xdigi"/>
+   </logical>
+</File>
+<File ID="E867E8BC-13C3-E611-9618-B083FED768E2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd15.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000115_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000115_2.xdigi"/>
+   </logical>
+</File>
+<File ID="AAE6A15B-25C3-E611-BAF6-003048D37680">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door05.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000178_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000178_2.xdigi"/>
+   </logical>
+</File>
+<File ID="AC2B47C6-4CC2-E611-B446-00259090846A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000022_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000022_2.xdigi"/>
+   </logical>
+</File>
+<File ID="402B93FB-1DC3-E611-9BAD-001E67792644">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000151_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000151_2.xdigi"/>
+   </logical>
+</File>
+<File ID="0AEA0684-24C4-E611-BD84-0015171FB134">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000219_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000219_2.xdigi"/>
+   </logical>
+</File>
+<File ID="7802143A-09C3-E611-942A-001E677925F6">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000144_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000144_2.xdigi"/>
+   </logical>
+</File>
+<File ID="B02B0415-37C3-E611-AA33-001A4B0A05E4">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd15.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000137_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000137_2.xdigi"/>
+   </logical>
+</File>
+<File ID="80FA13EF-21C3-E611-958E-3CFDFE9E1B28">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door02.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000136_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000136_2.xdigi"/>
+   </logical>
+</File>
+<File ID="9EA108DF-40C3-E611-9EA9-002590A83190">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000188_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000188_2.xdigi"/>
+   </logical>
+</File>
+<File ID="A8680EE2-C3C5-E611-B509-0CC47A1DF812">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000249_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000249_2.xdigi"/>
+   </logical>
+</File>
+<File ID="0ECE3871-1EC3-E611-A6CB-001E67E6F5AD">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000177_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000177_2.xdigi"/>
+   </logical>
+</File>
+<File ID="8474BFD1-ADC6-E611-A4B7-002590AC52CA">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000258_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000258_2.xdigi"/>
+   </logical>
+</File>
+<File ID="4C48DEEB-F4C3-E611-8206-9CB654AEBE4A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000204_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000204_2.xdigi"/>
+   </logical>
+</File>
+<File ID="2681B4B3-26C3-E611-89D2-002590A124AA">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000114_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000114_2.xdigi"/>
+   </logical>
+</File>
+<File ID="FE7A4324-2CC4-E611-8A34-001E67792658">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000226_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000226_2.xdigi"/>
+   </logical>
+</File>
+<File ID="A0E67490-3BC3-E611-987B-564DA9FEA90B">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000139_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000139_2.xdigi"/>
+   </logical>
+</File>
+<File ID="3ADC67B1-48C2-E611-94D1-00259090915E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000011_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000011_2.xdigi"/>
+   </logical>
+</File>
+<File ID="FEFCA2E3-F5C2-E611-B007-001E677923F6">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000195_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000195_2.xdigi"/>
+   </logical>
+</File>
+<File ID="82E5EB4B-4CC2-E611-9D57-00259090822E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://whale5.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000062_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000062_2.xdigi"/>
+   </logical>
+</File>
+<File ID="687BF111-B5C6-E611-9D91-F8BC120E3B00">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000259_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000259_2.xdigi"/>
+   </logical>
+</File>
+<File ID="B441E8B0-48C2-E611-AAF5-0025909090C2">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000053_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000053_2.xdigi"/>
+   </logical>
+</File>
+<File ID="CEC033BD-48C2-E611-864D-002590907802">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd18.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000049_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000049_2.xdigi"/>
+   </logical>
+</File>
+<File ID="2E5D9D5C-82C4-E611-B326-080027001626">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000239_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000239_2.xdigi"/>
+   </logical>
+</File>
+<File ID="3CD45DB9-2CC3-E611-9762-901B0E0A2186">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000138_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000138_2.xdigi"/>
+   </logical>
+</File>
+<File ID="42E086F4-05C4-E611-93B2-44A84223B763">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000202_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000202_2.xdigi"/>
+   </logical>
+</File>
+<File ID="3CF06B06-FFC4-E611-9B80-00259073E53C">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000240_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000240_2.xdigi"/>
+   </logical>
+</File>
+<File ID="6C496716-4FC2-E611-BDF1-002590908462">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000002_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000002_2.xdigi"/>
+   </logical>
+</File>
+<File ID="340EA3A4-1FC3-E611-AD96-F8BC12046650">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000106_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000106_2.xdigi"/>
+   </logical>
+</File>
+<File ID="D28E4E04-05C3-E611-9E0D-3417EBE743E4">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://ccdcacli067.in2p3.fr:1094/pnfs/in2p3.fr/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000173_2.xdigi" se="IN2P3_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000173_2.xdigi"/>
+   </logical>
+</File>
+<File ID="E85AA39D-0CC3-E611-865B-001E677925CC">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000122_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000122_2.xdigi"/>
+   </logical>
+</File>
+<File ID="6EE02E50-46C2-E611-81D2-00259090829A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd2.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000039_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000039_2.xdigi"/>
+   </logical>
+</File>
+<File ID="EEF40F7C-4AC2-E611-8BBF-002590908F0A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000014_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000014_2.xdigi"/>
+   </logical>
+</File>
+<File ID="4E4EACA9-5DC2-E611-A5C8-002590908462">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://rabbit3.grid.sara.nl:1094/pnfs/grid.sara.nl/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000082_2.xdigi" se="SARA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000082_2.xdigi"/>
+   </logical>
+</File>
+<File ID="FC6797D3-07C3-E611-94E1-0CC47A0102A4">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000140_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000140_2.xdigi"/>
+   </logical>
+</File>
+<File ID="1AF758B8-59C3-E611-8DC5-FA163E15D5D7">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000107_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000107_2.xdigi"/>
+   </logical>
+</File>
+<File ID="70F9A664-DAC7-E611-B9E9-564DA9FEA913">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000260_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000260_2.xdigi"/>
+   </logical>
+</File>
+<File ID="CA86B90F-4FC2-E611-9A7E-00259090840E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000032_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000032_2.xdigi"/>
+   </logical>
+</File>
+<File ID="1A20C225-41C3-E611-B40B-002590A3C954">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000189_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000189_2.xdigi"/>
+   </logical>
+</File>
+<File ID="6C1382D3-42C3-E611-A42A-001E67E6F823">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000196_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000196_2.xdigi"/>
+   </logical>
+</File>
+<File ID="7AC5C370-B9C6-E611-9883-001E67C7A693">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000256_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000256_2.xdigi"/>
+   </logical>
+</File>
+<File ID="FC99CD3B-D7C3-E611-AFF4-78E3B5F47FF8">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://clhcbdlf.ads.rl.ac.uk//castor/ads.rl.ac.uk/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000216_2.xdigi?svcClass=lhcbDst" se="RAL_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000216_2.xdigi"/>
+   </logical>
+</File>
+<File ID="A0A9E462-5AC2-E611-B3C8-00259090846E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000095_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000095_2.xdigi"/>
+   </logical>
+</File>
+<File ID="0C80F703-1DC3-E611-9BC3-001E67E6F616">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000182_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000182_2.xdigi"/>
+   </logical>
+</File>
+<File ID="146973DB-32C3-E611-BE32-002590A3716C">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000125_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000125_2.xdigi"/>
+   </logical>
+</File>
+<File ID="7CC108AB-4AC2-E611-B8E8-00259090821E">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door05.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000033_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000033_2.xdigi"/>
+   </logical>
+</File>
+<File ID="C4727197-47C2-E611-842C-0025909081EE">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://xrootd-lhcb.cr.cnaf.infn.it//storage/gpfs_lhcb/lhcb/disk/MC/2016/XDIGI/00056263/0000/00056263_00000006_2.xdigi" se="CNAF_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000006_2.xdigi"/>
+   </logical>
+</File>
+<File ID="A89F58FA-18C3-E611-B8A6-0026557F4A40">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000134_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000134_2.xdigi"/>
+   </logical>
+</File>
+<File ID="8C03632D-6AC4-E611-A1C3-080027A79B4B">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000233_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000233_2.xdigi"/>
+   </logical>
+</File>
+<File ID="007FE4CE-AAC6-E611-80C7-001E6739732D">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000254_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000254_2.xdigi"/>
+   </logical>
+</File>
+<File ID="AE5A98D2-30C3-E611-9BD8-901B0E0A1B78">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://lhcb-sdpd2.t1.grid.kiae.ru:1094/t1.grid.kiae.ru/data/lhcb/lhcbdisk/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000126_2.xdigi" se="RRCKI_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000126_2.xdigi"/>
+   </logical>
+</File>
+<File ID="A40C7C9A-05C3-E611-9CD5-38EAA790A38C">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door01.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000148_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000148_2.xdigi"/>
+   </logical>
+</File>
+<File ID="2AE37703-20C4-E611-8D26-0CC47AB64E82">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-123-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000223_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000223_2.xdigi"/>
+   </logical>
+</File>
+<File ID="9C375D4D-45C2-E611-9895-00259090836A">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door01.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000045_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000045_2.xdigi"/>
+   </logical>
+</File>
+<File ID="FAAA527B-F0C2-E611-8413-901B0E815A20">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000108_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000108_2.xdigi"/>
+   </logical>
+</File>
+<File ID="E28FC430-D7C4-E611-8225-00266CF9184C">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://eoslhcb.cern.ch//eos/lhcb/grid/prod/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000231_2.xdigi" se="CERN_MC-DST-EOS"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000231_2.xdigi"/>
+   </logical>
+</File>
+<File ID="121F15E7-CEC5-E611-B96A-001E67E6F5D0">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://f01-080-125-e.gridka.de:1094/pnfs/gridka.de/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000252_2.xdigi" se="GRIDKA_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000252_2.xdigi"/>
+   </logical>
+</File>
+<File ID="4C85BE96-FFC3-E611-A7E5-0025909083EE">
+   <physical>
+      <pfn filetype="ROOT_All" name="root://door05.pic.es:1094/pnfs/pic.es/data/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000224_2.xdigi" se="PIC_MC-DST"/>
+   </physical>
+   <logical>
+      <lfn name="/lhcb/MC/2016/XDIGI/00056263/0000/00056263_00000224_2.xdigi"/>
+   </logical>
+</File>
+
+</POOLFILECATALOG>
