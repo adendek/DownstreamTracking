@@ -40,7 +40,13 @@ public:
 
   virtual bool isTrueTrack( const LHCb::Track* track, const Tf::TTStationHitManager<PatTTHit>::HitRange& hits);//AD, overload
   
-  virtual bool isTrueSeed(const LHCb::Track* seed);
+
+  virtual bool hasMCParticle(const LHCb::Track* seed); // point 1 from the mail
+  virtual bool isDownstreamReconstructible(const LHCb::Track* seed); // point 2
+  virtual bool hasMCParticleNotElectron(const LHCb::Track* seed);// point 3
+  virtual bool isDownstreamReconstructibleNotElectron(const LHCb::Track* seed); //point 3
+  virtual bool isTrueSeed(const LHCb::Track* seed);// point 5
+
   
   virtual void chi2Tuple( const double p, const double chi2, const unsigned int nHits);
 

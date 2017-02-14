@@ -46,6 +46,10 @@ public:
   virtual void seedTuple( const LHCb::Track* trackSeed, double seedClassifierValue)=0;
   virtual void trackTuple( const std::map<std::string, double >  downTrackParameters,  const PatTTHits& trackHits, const LHCb::Track* trackSeed)=0;
   virtual bool isTrueSeed(const LHCb::Track* seed) =0;
+  virtual bool hasMCParticle(const LHCb::Track* seed) =0; 
+  virtual bool isDownstreamReconstructible(const LHCb::Track* seed)=0; 
+  virtual bool hasMCParticleNotElectron(const LHCb::Track* seed) =0;
+  virtual bool isDownstreamReconstructibleNotElectron(const LHCb::Track* seed)=0;                                                                                                                    
 
   //added by AD 2/1/16 for efficiency vs step
 

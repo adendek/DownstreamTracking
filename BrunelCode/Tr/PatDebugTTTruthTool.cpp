@@ -217,24 +217,58 @@ bool PatDebugTTTruthTool::isTrueTrack( const LHCb::Track* track, const Tf::TTSta
   
 }
 
+bool PatDebugTTTruthTool::hasMCParticle(const LHCb::Track* seed){
+    MCTrackInfo trackInfo( evtSvc(), msgSvc() );
+    LinkedTo<LHCb::MCParticle, LHCb::Track> mySeedLink ( evtSvc(), msgSvc(),LHCb::TrackLocation::Seed);
+    const LHCb::MCParticle* mcSeedPart = mySeedLink.first( seed->key() );
+    return  !(mcSeedPart == nullptr); 
+
+  }
+  
+bool PatDebugTTTruthTool::isDownstreamReconstructible(const LHCb::Track* seed)
+  {
+    MCTrackInfo trackInfo( evtSvc(), msgSvc() );
+    LinkedTo<LHCb::MCParticle, LHCb::Track> mySeedLink ( evtSvc(), msgSvc(),LHCb::TrackLocation::Seed);
+    const LHCb::MCParticle* mcSeedPart = mySeedLink.first( seed->key() );
+    if (mcSeedPart == nullptr)
+      return false;
+    const bool isDown  = trackInfo.hasT( mcSeedPart ) && trackInfo.hasTT( mcSeedPart );
+    return isDown;
+  }
+
+bool PatDebugTTTruthTool::hasMCParticleNotElectron(const LHCb::Track* seed){
+  MCTrackInfo trackInfo( evtSvc(), msgSvc() );
+  LinkedTo<LHCb::MCParticle, LHCb::Track> mySeedLink ( evtSvc(), msgSvc(),LHCb::TrackLocation::Seed);
+  const LHCb::MCParticle* mcSeedPart = mySeedLink.first( seed->key() );
+  if (mcSeedPart == nullptr) return false;
+  return !(std::abs(mcSeedPart->particleID().pid()) == 11 );
+}
+
+bool PatDebugTTTruthTool::isDownstreamReconstructibleNotElectron(const LHCb::Track* seed)
+{
+  MCTrackInfo trackInfo( evtSvc(), msgSvc() );
+  LinkedTo<LHCb::MCParticle, LHCb::Track> mySeedLink ( evtSvc(), msgSvc(),LHCb::TrackLocation::Seed);
+  const LHCb::MCParticle* mcSeedPart = mySeedLink.first( seed->key() );
+  if (mcSeedPart == nullptr)
+    return false;
+  return  trackInfo.hasT( mcSeedPart ) && 
+    trackInfo.hasTT( mcSeedPart )&& 
+    !(std::abs(mcSeedPart->particleID().pid()) == 11 );
+}
+
+
 bool PatDebugTTTruthTool::isTrueSeed(const LHCb::Track* seed){
     MCTrackInfo trackInfo( evtSvc(), msgSvc() );
     LinkedTo<LHCb::MCParticle, LHCb::Track> mySeedLink ( evtSvc(), msgSvc(),LHCb::TrackLocation::Seed);
-
-    bool goodTrack = true;
-
+    
     const LHCb::MCParticle* mcSeedPart = mySeedLink.first( seed->key() );
-    if( mcSeedPart == nullptr ){
-      goodTrack = false;
-    }else{
-      // -- We ask for downstream tracks that are not long reconstructible
-      const bool isDown  = trackInfo.hasT( mcSeedPart ) && trackInfo.hasTT( mcSeedPart ) && !trackInfo.hasVelo( mcSeedPart );
-      if( !isDown ) goodTrack = false;
-      if( std::abs(mcSeedPart->particleID().pid()) == 11 ) goodTrack = false;
-    }
-
-
-      return goodTrack;
+    if( mcSeedPart == nullptr )
+      return  false;
+    // -- We ask for downstream tracks that are not long reconstructible and is not an electron
+    return trackInfo.hasT( mcSeedPart ) && 
+      trackInfo.hasTT( mcSeedPart ) && 
+      !trackInfo.hasVelo( mcSeedPart) &&
+      !(std::abs(mcSeedPart->particleID().pid()) == 11 );
 
 }
 
@@ -283,6 +317,11 @@ void PatDebugTTTruthTool::seedTuple(const LHCb::Track* trackSeed, double seedCla
 {
     Tuple tuple = nTuple( "DownstreamSeedDebugTuple", "DownstreamSeedDebugTuple" );
     // information taken from the track
+    tuple->column("has_MCParticle", hasMCParticle(trackSeed));
+    tuple->column("is_downstream_reconstructible", isDownstreamReconstructible(trackSeed));
+    tuple->column("has_MCParticle_not_electron", hasMCParticleNotElectron(trackSeed));
+    tuple->column("is_downstream_reconstructible_not_electron", isDownstreamReconstructibleNotElectron(trackSeed));
+
     tuple->column("is_true_seed", isTrueSeed(trackSeed));
     tuple->column("seed_chi2PerDoF", trackSeed->chi2PerDoF());
     tuple->column("seed_p", trackSeed->p());
