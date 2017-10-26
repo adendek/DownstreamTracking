@@ -3,12 +3,12 @@
 To install the latest version of Tracking you need to log into lxpus and them type:
 
 ```bash
-lb-dev Brunel v52r0
-cd BrunelDev_v52r0/
+lb-dev Brunel v52r6
+cd BrunelDev_v52r6/
 git lb-use Rec
-git lb-checkout Rec/v21r0 Tf/PatAlgorithms 
-git lb-checkout Rec/v21r0 Tf/PatKernel 
-git lb-checkout Rec/v21r0 Tr/TrackMCTools 
+git lb-checkout Rec/master Tf/PatAlgorithms 
+git lb-checkout Rec/master Tf/PatKernel 
+git lb-checkout Rec/master Tr/TrackMCTools 
 mkdir jobs
 ```
 
@@ -23,7 +23,7 @@ have to be moved into **BrunelDev_v52r0/Tf/PatAlgorithms** and so on.
 
 ## Now you need the compile the project
 ```bash
-cd BrunelDev_v52r0/ 
+cd BrunelDev_v52r6/ 
 make -j10
 ```
 
@@ -53,7 +53,3 @@ tail -f <logfile>
 If you don't want to capture the logs you can remove <logfile>. 
 
 The Brunel should create two root files. One of them is the training ntuple. 
-
- 
-## Attention Workaround!
- You need to manually change line PatBBDTSeedClassifier.cpp:127 to set correct location of the **BBDT_tuple.csv**  
