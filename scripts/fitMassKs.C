@@ -1,19 +1,9 @@
 void fitMassKs(){
     
-  gROOT->ProcessLine(".x ~/style/lhcbStyle4.C");
+  gROOT->ProcessLine(".x lhcbStyle.C");
   
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/KsPiPi2016DownNewPatLLT.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/KsPiPi2016DownOldPatLLT.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/KsPiPi2016DownNewPatLLTHighThres2.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/KsPiPi2016DownNewPatLLTHighThres2MVA.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/KsPiPi2016DownNewPatLLTHighThres2MVAv03.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/KsPiPi2016DownNewPatLLTHighThres2MVAv03OneCand.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/KsPiPi2016Downv6OneCand.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/KsPiPi2016Downv7Simple.root");
-  TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/DownTestOldPatLLT.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/DownTestNewPatLLT.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/DownTestMLPPatLLT.root");
-  //TFile* file = TFile::Open("KsPiPi2016Down.root");
+  
+  TFile* file = TFile::Open("KsPiPi2016Down.root");
   TTree* tree = (TTree*)file->Get("KsPiPiTuple/DecayTree");
 
   //TFile* file = TFile::Open("BJpsiKs2016DownwithOld.root");
@@ -106,7 +96,7 @@ void fitMassKs(){
   outFile->Close();
   
 
-  /*
+  
   TCanvas* c = new TCanvas();
   histoPT->Draw("e");
   c = new TCanvas();
@@ -115,7 +105,6 @@ void fitMassKs(){
   histoPhi->Draw("e");
   c = new TCanvas();
   histoEta->Draw("e");
-  */
   
   return;
   
