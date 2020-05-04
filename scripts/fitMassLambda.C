@@ -1,19 +1,8 @@
 void fitMassLambda(){
     
-  gROOT->ProcessLine(".x ~/style/lhcbStyle4.C");
-
+ gROOT->ProcessLine(".x lhcbStyle.C");
   
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/KsPiPi2016DownNewPatLLT.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/KsPiPi2016DownOldPatLLT.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/KsPiPi2016DownNewPatLLTHighThres2.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/KsPiPi2016DownNewPatLLTHighThres2MVA.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/KsPiPi2016DownNewPatLLTHighThres2MVAv03.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/KsPiPi2016Downv6Simple.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/KsPiPi2016Downv7Simple.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/DownTestOldPatLLT.root");
-  //TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/DownTestNewPatLLT.root");
-  TFile* file = TFile::Open("/eos/lhcb/user/d/decianm/DownTestMLPPatLLT.root");
-  //TFile* file = TFile::Open("KsPiPi2016Down.root");
+  TFile* file = TFile::Open("KsPiPi2016Down.root");
   TTree* tree = (TTree*)file->Get("LambdaPPiTuple/DecayTree");
   TFile* dummy = new TFile("dummy.root","RECREATE");
   TTree* tree2 = tree->CopyTree("piminus_TRACK_Type == 5 && pplus_TRACK_Type == 5");
